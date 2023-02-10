@@ -1,0 +1,276 @@
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+header{
+    margin: 16px 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+
+}
+.logo{
+    color: #13183F; 
+}
+
+button{
+    width: 140px;
+    height: 48px;
+    border-radius: 28px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #13183F;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+
+}
+.forcenter{
+    background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+
+}
+.container{
+    width: 343px;
+    background-color: #FFFFFF;
+    margin-left: 16px;
+}
+.main-h1{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50.4px;
+    width: 343px;
+    height: 101px;
+    color:#13183F;
+    
+}
+.main-p{
+    color: #83869A;
+    height: 78px;
+    width: 343px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    word-spacing: 1px;
+    margin-top: 25px;
+    margin-bottom: 24px;
+    
+}
+.main-button{
+    width: 167px;
+    height: 56px;
+    background: linear-gradient(
+    to top,
+    #F02AA6 30%,
+    #FF6F48 70%    
+  );
+    border:none;
+    
+}
+.mobile-hero{
+  width: 375px;
+  display: flex;
+  background-repeat: no-repeat;
+}
+
+.blockcontainer{
+    width: 100%x;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.pink-container{
+    width: 343px;
+    background: linear-gradient(
+    to top,
+    #F02AA6 30%,
+    #FF6F48 70%    
+  );
+    border-radius: 10px;
+    margin-left: 16px;
+}
+.title{
+    height: 64px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 28px 24px 29px 32px;
+    color: #FFFFFF;
+}
+.block{  
+width: 339px;   
+flex-direction: column;  
+background-color: #FFFFFF;  
+border-radius: 10px;
+margin-bottom: 86px;
+margin-left: 16px;
+}
+.block img{
+    width: 56px;
+    margin-top: -50px;
+    padding: 28px;
+} 
+.block h1{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25.2px;
+    color: #13183F;
+    margin-left: 28px;
+    margin-bottom: 16px;
+}
+
+.block p{
+    color: #83869A;
+    width: 286px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 28px;
+    line-height: 26px;
+}
+.block h2{
+    color: #F74780;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    width: 104px;
+    margin: 28px 24px 29px 32px;
+    
+}
+.footer{
+    background-color: #13183F;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.lastbutton{
+    background:linear-gradient(
+        #4851FF 20%,
+        #F02AA6 80%
+    );
+    border:none;
+    margin-right: 16px;
+}
+.lastskilled{
+    width: 89px;
+    height: 35px;
+    top: 6px;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35.28px;
+    color: white;
+    margin-left: 16px;
+}
+@media (min-width: 768px)  {
+    body{
+        background: url(./photos/image-hero-tablet.png);
+        background-repeat: no-repeat;
+        background-position: right -280px top -74px;
+        
+    }
+    .mobile-hero{
+        display:none;
+    }
+    .blockcontainer{
+        margin-top: 210px;
+        flex-direction: row;
+        flex-wrap:wrap;
+        width: 100%;
+           
+       }
+    .pink-container{
+        width: 339px;
+        height: 259px;
+    }
+    .title{
+        margin-top: 32px;
+    }
+    .container{
+        margin-left: 39px;
+    }
+    header{
+       padding: 20px;
+    }
+    
+}
+@media (min-width:1440px) {
+    .forcenter{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        
+    }
+    body{
+         background-image: url(./photos/image-hero-desktop.png);
+         background-position: right -380px top -190.13px;
+         background-repeat: no-repeat;
+    }
+    .container{
+        margin-left: 165px;
+        margin-top: 178px;
+    } 
+    .main-h1{
+        font-size: 56px;
+        line-height: 70.56px;
+        width: 457px;
+        height: 143px;
+        
+    } 
+    .main-p{
+        height: 84px;
+        width: 445px;
+        font-size: 18px;
+        line-height: 28px;
+        word-spacing: 1px;
+        margin-top: 29px;
+        margin-bottom: 40px; 
+    }
+    header{
+      width: 75%;
+      margin-left:166px;
+    }
+    .blockcontainer{
+        max-width: 1440px;
+        margin-top: 300px;
+        flex-direction: row;
+        flex-wrap:wrap;
+        width:100%; 
+       }
+    .pink-container{
+        width: 350px;
+        border-radius: 15px;
+    }
+    .title{
+        width:286px;
+        height:120px;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    button:hover{
+        background-color: #83869A;
+        cursor: pointer;
+    }
+    .main-button:hover{
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        cursor: pointer;
+    }
+    .lastbutton:hover{
+        background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%),
+        linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+        cursor: pointer;
+        
+    }
+    .lastbutton{
+        margin-right: 165px;
+    }
+    .lastskilled{
+     margin-left:165px;
+    }
+}
+      
+
+
+
